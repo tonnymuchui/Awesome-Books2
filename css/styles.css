@@ -1,0 +1,122 @@
+.navbar {
+  display: flex;
+  border: 3px solid #363535;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar-brand {
+  margin-left: 18px;
+}
+
+.headlist {
+  text-decoration: none;
+  padding-right: 60px;
+  cursor: pointer;
+  padding-left: 12px;
+}
+
+.right {
+  border-right: 2px solid black;
+}
+
+.heading {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 100%;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+  border: 3px solid #363535;
+  border-radius: 4px;
+}
+
+.btn {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 3%;
+  border: 3px solid #363535;
+  border-radius: 4px;
+}
+
+.book-container button {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 30%;
+  border: 3px solid #363535;
+  border-radius: 4px;
+}
+
+.submit:hover {
+  background-color: blue;
+}
+
+#table_content td,
+#table_content th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table_content tr:hover {
+  background-color: #ddd;
+}
+
+#table_content tr:nth-child(odd) {
+  background-color: gray;
+}
+
+#book-form {
+  text-align: center;
+  margin: 5%;
+}
+
+#table_content {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table_content th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+#form {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+h5 {
+  text-align: center;
+}
+
+#to-display {
+  float: right;
+  font-family: "Lato", sans-serif;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.delete {
+  float: right;
+  border-radius: 2px;
+}
+
+#book-list {
+  border: 2px solid #363535;
+}
+
+.container-footer {
+  border: 2px solid #363535;
+  margin-top: 18px;
+}
